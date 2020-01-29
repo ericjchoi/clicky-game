@@ -2,6 +2,7 @@
   width: 80%;
   margin: auto;
   max-width: 800px;
+  margin-bottom: 20px;
 }
 .shake {
   animation: shake 0.5s;
