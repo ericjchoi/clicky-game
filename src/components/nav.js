@@ -4,7 +4,7 @@ import "./nav.css";
 function Nav(props) {
   return (
     <nav className="navClass fixed-top">
-      <a href="/">Clicky Game</a>
+      <a href="https://ericjchoi.github.io/clicky-game/">Clicky Game</a>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           <span id="navMessage">{props.navMessage}</span>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
