@@ -12,16 +12,16 @@ HTML5, CSS, JavacSript, React, JSX and npm packages
 
 ## Current development
 
-- created React app
-- installed npm packages
-- created GitHub repo
-- test initial deployment to GitHub
-- static front-end test
-- transitioning to dynamic front-end
-- components
-- click handling
-- javascript logics
-- rendering pictures
-- deployment to GitHub
+- Created React app
+- Installed npm packages
+- Created GitHub repository
+- Tested initial deployment to GitHub
+- Static front-end tested
+- Transition to dynamic front-end
+- Components
+- Click handling
+- JavaScript logics
+- Rendering pictures
+- Deployed to GitHub
 
 ## [Run the App](https://ericjchoi.github.io/clicky-game/)
