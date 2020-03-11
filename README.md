@@ -8,11 +8,11 @@ This app is a clicking game developed with React. User gets score if previously 
 Figure 1. Initial loading screen of the app
 ## Technologies used
 
-HTML, CSS, Javacsript, React, JSX and npm packages
+HTML5, CSS, JavacSript, React, JSX and npm packages
 
 ## Current development
 
-- created react app
+- created React app
 - installed npm packages
 - created GitHub repo
 - test initial deployment to GitHub
