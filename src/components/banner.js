@@ -1,3 +1,4 @@
+// Banner component
 import React from "react";
 import "./banner.css";
 function Banner() {
@@ -17,4 +18,5 @@ function Banner() {
         </div>
     );
 }
+// Export Banner component
 export default Banner;
