@@ -15,4 +15,5 @@ function Nav(props) {
   );
 }
 
+// Export Nav component
 export default Nav;
