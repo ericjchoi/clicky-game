@@ -11,4 +11,5 @@ function Footer(props) {
     );
 }
 
+// Export Footer component
 export default Footer;
