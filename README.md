@@ -22,6 +22,7 @@ HTML5, CSS, JavacSript, React, JSX and npm packages
 - Click handling
 - JavaScript logics
 - Rendering pictures
+- Shuffling and shacking pictures
 - Deployed to GitHub
 
 ## [Run the App](https://ericjchoi.github.io/clicky-game/)
