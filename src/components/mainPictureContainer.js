@@ -6,5 +6,5 @@ function MainPictureContainer(props) {
         <div className={`pictureContainer text-center ${props.shakePictures}`}>{props.children}</div>
     );
 }
-
+// Export MainPictureContainer component
 export default MainPictureContainer;
