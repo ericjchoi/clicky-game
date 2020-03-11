@@ -1,3 +1,4 @@
+// Import necessary components
 import React, { Component } from "react";
 import MainContainer from "./mainContainer.js";
 import Nav from "./nav.js";
