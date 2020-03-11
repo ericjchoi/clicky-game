@@ -5,5 +5,5 @@ function MainContainer(props) {
         <div id="mainContainer">{props.children}</div>
     );
 }
-
+// Export MainContainer component
 export default MainContainer;
