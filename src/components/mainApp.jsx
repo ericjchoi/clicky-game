@@ -8,6 +8,7 @@ import MainPictureContainer from "./mainPictureContainer.js";
 import OnePictureContainer from "./onePictureContainer.js";
 import Footer from "./footer.js";
 
+// states
 class MainApp extends Component {
   state = {
     navMessage: "Click an image to begin!",
@@ -20,6 +21,7 @@ class MainApp extends Component {
     shakePictures: ""
   };
 
+  // Function handles state
   stateHandle = name => {
     let currentScore = this.state.score;
     let topScore = this.state.topScore;
@@ -27,10 +29,10 @@ class MainApp extends Component {
 
     // Top score 12 is maximum
     if (topScore < 12) {
-      // user clicked previously un-clicked picture
+      // User clicked previously un-clicked picture
       if (!clickedList.includes(name)) {
         clickedList.push(name);
-        // check if it was the last un-clicked picture or not
+        // Check if it was the last un-clicked picture or not
         if (currentScore !== 11) {
           this.setState({
             navMessage: "You guessed correctly!"
@@ -40,7 +42,7 @@ class MainApp extends Component {
             navMessage: "You guessed perfectly!"
           });
         }
-        // check if it was record breaking or not
+        // Check if it was record breaking or not
         if (currentScore >= topScore) {
           this.setState({
             score: currentScore + 1,
@@ -54,7 +56,7 @@ class MainApp extends Component {
           });
         }
       } else {
-        // user clicked previously clicked picture again
+        // User clicked previously clicked picture again
         this.setState({
           score: 0,
           navMessage: "You guessed incorrectly!",
@@ -63,7 +65,7 @@ class MainApp extends Component {
         });
       }
     } else {
-      // if user got perfect score, the next click will reset the game
+      // If user got perfect score, the next click will reset the game
       this.setState({
         score: 0,
         topScore: 0,
@@ -106,4 +108,5 @@ class MainApp extends Component {
   }
 }
 
+// Exporting MainApp component
 export default MainApp;
